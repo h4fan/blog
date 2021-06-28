@@ -56,6 +56,7 @@ A: 将extended改为true。[^2]
 A: 将hugoBasicExample[^3]中的.gitignore里面的themes注释掉。
 
 
-[^1]：https://tomial.github.io/posts/hugo%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0github-pages/
+
+[^1]: https://tomial.github.io/posts/hugo%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0github-pages
 [^2]: https://stackoverflow.com/questions/54057291/how-to-setup-scss-with-hugo
 [^3]: https://github.com/gohugoio/hugoBasicExample
