@@ -1,7 +1,7 @@
 baseURL = "https://h4fan.github.io/blog/"
-title = "h4fan安全博客"
+title = "h4fan security"
 author = "h4fan"
-copyright = "Copyright © 2021–2022, h4fan; all rights reserved."
+copyright = " h4fan security, all rights reserved. Copyright © 2021–"
 paginate = 3
 theme = "ananke"
 languageCode = "en"
