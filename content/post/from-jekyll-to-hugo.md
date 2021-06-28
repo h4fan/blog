@@ -17,8 +17,6 @@ aliases = ["github-actions-auto-deploy-hugo-blog"]
 使用github actions自动deploy hugo博客。甚至都不用本地安装主题。
 <!--more-->
 
-# github actions自动deploy hugo博客
-
 ## jekyll博客
 之前使用jekyll，因为github对jekyll集成好。可以直接写markdown，主题可以使用remote theme，这样就只有纯的markdown，十分简洁。不需要跟html混在一起。  
 用了一段时间jekyll，使用的主题总感觉不满意。换了几个主题，还是感觉不符合。再者有些主题不兼容，还得修改老文章，改动比较大。所以想换个博客。  
