@@ -5,7 +5,7 @@ copyright = " h4fan security, all rights reserved. Copyright © 2021–"
 paginate = 3
 theme = "ananke"
 languageCode = "zh-CN"
-DefaultContentLanguage = "zh-CN"
+DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
