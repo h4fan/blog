@@ -25,7 +25,7 @@ aliases = ["github-actions-auto-deploy-hugo-blog"]
 搜索发现，现在可以使用github actions来进行自动部署，所以不局限于jekyll。
 
 ## hugo blog
-发现hugo使用的人不少，决定尝试一下。搜索到一个使用github actions自动部署的方法[^1]。  
+发现hugo使用的人不少，决定尝试一下。搜索到一个使用github actions自动部署的方法。 [^1]  
 使用这个方法，可以自动部署，但是我不想在本地安装主题，有没有办法呢？
 
 ## hugo主题
@@ -42,8 +42,8 @@ hugo的主题，要么下载放到themes里面，要么用git submodule安装。
 ```
 
 ## 碰到的问题
-1. you need the extended version to build SCSS/SASS
-将extended改为true。[^2]
+1. Q: you need the extended version to build SCSS/SASS  
+A: 将extended改为true。[^2]
 ```yml
       - name: Setup Hugo	# 步骤名自取
         uses: peaceiris/actions-hugo@v2	# hugo官方提供的action，用于在任务环境中获取hugo
@@ -52,8 +52,8 @@ hugo的主题，要么下载放到themes里面，要么用git submodule安装。
           extended: true
 ```
 
-2. action build时报错“The following paths are ignored by one of your .gitignore files: themes/ananke”
-将hugoBasicExample[^3]中的.gitignore里面的themes注释掉。
+2. Q: action build时报错“The following paths are ignored by one of your .gitignore files: themes/ananke” 
+A: 将hugoBasicExample[^3]中的.gitignore里面的themes注释掉。
 
 
 [^1]：https://tomial.github.io/posts/hugo%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0github-pages/
