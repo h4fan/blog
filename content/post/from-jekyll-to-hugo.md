@@ -1,7 +1,7 @@
 +++
 author = "h4fan"
 title = "使用github actions自动deploy hugo博客"
-date = "2019-03-11"
+date = "2021-06-28"
 description = "使用github actions自动deploy hugo博客"
 tags = [
     "hugo",
@@ -16,6 +16,7 @@ aliases = ["github-actions-auto-deploy-hugo-blog"]
 
 使用github actions自动deploy hugo博客。甚至都不用本地安装主题。
 <!--more-->
+
 
 ## jekyll博客
 之前使用jekyll，因为github对jekyll集成好。可以直接写markdown，主题可以使用remote theme，这样就只有纯的markdown，十分简洁。不需要跟html混在一起。  
@@ -55,6 +56,6 @@ A: 将hugoBasicExample[^3]中的.gitignore里面的themes注释掉。
 
 
 
-[^1]: https://tomial.github.io/posts/hugo%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0github-pages
+[^1]: https://tomial.github.io/posts/hugo%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0github-pages/
 [^2]: https://stackoverflow.com/questions/54057291/how-to-setup-scss-with-hugo
 [^3]: https://github.com/gohugoio/hugoBasicExample
