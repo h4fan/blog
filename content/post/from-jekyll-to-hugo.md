@@ -53,9 +53,9 @@ hugo的主题，要么下载放到themes里面，要么用git submodule安装。
 ```
 
 2. action build时报错“The following paths are ignored by one of your .gitignore files: themes/ananke”
-将hugoBasicExample中的.gitignore里面的themes注释掉。
+将hugoBasicExample[^3]中的.gitignore里面的themes注释掉。
 
 
-[^1]：[hugo使用github-action自动部署](https://tomial.github.io/posts/hugo%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0github-pages/)
+[^1]：https://tomial.github.io/posts/hugo%E4%BD%BF%E7%94%A8github-action%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%E5%88%B0github-pages/
 [^2]: https://stackoverflow.com/questions/54057291/how-to-setup-scss-with-hugo
 [^3]: https://github.com/gohugoio/hugoBasicExample
